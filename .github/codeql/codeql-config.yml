@@ -4,7 +4,7 @@ disable-default-queries: true
 
 queries:
   - name: External Javascript QL pack (Runs a QL pack located in an external repo)
-    uses: Semmle/ql/javascript/ql/src/Performance@lgtm.com
+    uses: Semmle/ql/javascript/ql/src/codeql-suites@lgtm.com
 #  - name: External query (Runs a single query located in an external QL pack)
 #    uses: Semmle/ql/javascript/ql/src/AngularJS/DeadAngularJSEventListener.ql@master
 #  - name: Select query suite (Runs a query suites)
