@@ -14,7 +14,3 @@ queries:
   #  uses: ./javascript-lgtm.qls
   #- name: Queries from lgtm.com (Python)
   #  uses: ./python-lgtm.qls
-
-paths-ignore:
-  - src
-  - lib
