@@ -4,3 +4,5 @@ disable-default-queries: true
 
 queries:
   - uses: security-and-quality # same as the lgtm-full suite
+  - name: External Javascript QL performance pack (Runs a QL pack located in an external repo)
+    uses: /Semmle/ql/javascript/ql/src/Performance@master
